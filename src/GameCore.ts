@@ -56,7 +56,6 @@ export class GameCore {
       }
 
       const winnerId = this.getWinnerId();
-      console.log({ winnerId });
 
       if (winnerId && winnerId !== 'TIE') {
         const p1Won = this.playersIds[0] === winnerId;
