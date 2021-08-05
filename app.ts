@@ -4,7 +4,7 @@ import cors from 'cors';
 import { Server } from 'socket.io';
 import { GameServer } from './src/GameServer';
 
-const port = Number(process.env.port) || 2567;
+const port = Number(process.env.PORT) || 2567;
 
 const app = express();
 app.use(cors());
