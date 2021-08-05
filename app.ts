@@ -15,7 +15,7 @@ const httpServer = createServer(app);
 
 const io = new Server(httpServer, {
   cors: {
-    origin: 'https://jankenio.netlify.app/',
+    origin: 'https://jankenio.netlify.app',
     credentials: true
   }
 });
